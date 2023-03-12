@@ -70,7 +70,6 @@ async def test_controller_buttons(controller_state: ControllerState):
     """
     # We assume we are in the "Change Grip/Order" menu of the switch
     await button_push(controller_state, 'home')
-
     # wait for the animation
     await asyncio.sleep(1)
     """
